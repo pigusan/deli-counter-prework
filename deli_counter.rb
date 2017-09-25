@@ -12,6 +12,7 @@ def line(katz_deli)
         message += " "
       else
         message += ""
+      end
     end
     puts message
   end
