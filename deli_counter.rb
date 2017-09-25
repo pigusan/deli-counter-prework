@@ -17,3 +17,5 @@ def line(katz_deli)
     puts message
   end
 end
+
+take_a_number(name)
