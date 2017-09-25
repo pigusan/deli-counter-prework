@@ -18,4 +18,4 @@ def line(katz_deli)
   end
 end
 
-take_a_number(name)
+take_a_number(katz_deli, name)
