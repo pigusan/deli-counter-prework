@@ -8,6 +8,10 @@ def line(katz_deli)
     message = "The line is currently: "
     katz_deli.each_with_index do | person, index|
       message += "#{index + 1}. #{person}"
+      if katz_deli.length < index + 1
+        message += " "
+      else
+        message += ""
     end
     puts message
   end
